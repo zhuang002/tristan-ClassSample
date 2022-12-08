@@ -23,6 +23,8 @@ public class Main {
 		distance = p2.distance(p1);
 		System.out.println("The distance from p2 to p1 is "+distance);
 		
+		distance = Point.distance(p1, p2);
+		
 		
 		
 		if (p1.equals(p2)) {
